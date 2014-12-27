@@ -1,0 +1,128 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Util">
+      <UniqueIdentifier>{df925e41-d43d-485b-8fda-8d9d8aa0d483}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TestUtil">
+      <UniqueIdentifier>{5987b225-ce97-4bab-a498-6f994313b225}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Util\DateTime.cpp">
+      <Filter>Util</Filter>
+    </ClCompile>
+    <ClCompile Include="Util\FileMgr.cpp">
+      <Filter>Util</Filter>
+    </ClCompile>
+    <ClCompile Include="Util\RegUtil.cpp">
+      <Filter>Util</Filter>
+    </ClCompile>
+    <ClCompile Include="Util\ThreadpoolTimer.cpp">
+      <Filter>Util</Filter>
+    </ClCompile>
+    <ClCompile Include="Util\UnicodeBlock.cpp">
+      <Filter>Util</Filter>
+    </ClCompile>
+    <ClCompile Include="Util\PerformanceMeasure.cpp">
+      <Filter>Util</Filter>
+    </ClCompile>
+    <ClCompile Include="Util\ThreadPool.cpp">
+      <Filter>Util</Filter>
+    </ClCompile>
+    <ClCompile Include="Util\ThreadTask.cpp">
+      <Filter>Util</Filter>
+    </ClCompile>
+    <ClCompile Include="Util\RegKeyListenerBase.cpp">
+      <Filter>Util</Filter>
+    </ClCompile>
+    <ClCompile Include="Util\KPEFile.cpp">
+      <Filter>Util</Filter>
+    </ClCompile>
+    <ClCompile Include="Util\HandleListener.cpp">
+      <Filter>Util</Filter>
+    </ClCompile>
+    <ClCompile Include="TestFactory.cpp">
+      <Filter>TestUtil</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Util\DateTime.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="Util\FileMgr.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="Util\RegUtil.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="Util\ThreadpoolTimer.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="Util\PerformanceMeasure.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="Util\UnicodeBlock.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="Util\IThreadTask.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="Util\ThreadPool.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="Util\ThreadTask.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="Util\RegKeyListenerBase.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="Util\KPEFile.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="Util\HandleListener.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Util\ITask.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="Util\AutoLock.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="Util\AutoResource.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="TestFactory.h">
+      <Filter>TestUtil</Filter>
+    </ClInclude>
+    <ClInclude Include="Util\SystemUtility.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="Util\common.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="UtilityTest.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

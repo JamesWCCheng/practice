@@ -1,0 +1,7 @@
+Detected memory leaks!
+Dumping objects ->
+d:\sample from others\utilitytest\utilitytest\main.cpp(37) : {142} client block at 0x00CD71F0, subtype 0, 4 bytes long.
+ Data: <    > CD CD CD CD 
+d:\sample from others\utilitytest\utilitytest\main.cpp(31) : {141} client block at 0x00CD6CA0, subtype 0, 6 bytes long.
+ Data: <      > 02 00 00 00 CD CD 
+Object dump complete.

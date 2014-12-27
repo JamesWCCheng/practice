@@ -1,0 +1,6 @@
+LIBRARY DllTest
+EXPORTS
+nDllTest @1 PRIVATE
+fnDllTest @2 
+ClassFunctionWithDEF 
+fnFree  PRIVATE
